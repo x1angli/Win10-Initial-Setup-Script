@@ -143,10 +143,10 @@ ShowEncCompFilesColor         # HideEncCompFilesColor
 DisableSharingWizard          # EnableSharingWizard
 # HideSelectCheckboxes          # ShowSelectCheckboxes
 HideSyncNotifications           # ShowSyncNotifications
-HideRecentShortcuts             # ShowRecentShortcuts
-SetExplorerThisPC               # SetExplorerQuickAccess
-HideQuickAccess                 # ShowQuickAccess
-# HideRecycleBinFromDesktop     # ShowRecycleBinOnDesktop
+# HideRecentShortcuts           # ShowRecentShortcuts
+# SetExplorerThisPC             # SetExplorerQuickAccess
+# HideQuickAccess               # ShowQuickAccess
+HideRecycleBinFromDesktop     # ShowRecycleBinOnDesktop
 ShowThisPCOnDesktop             # HideThisPCFromDesktop
 ShowUserFolderOnDesktop       # HideUserFolderFromDesktop
 # ShowControlPanelOnDesktop     # HideControlPanelFromDesktop
