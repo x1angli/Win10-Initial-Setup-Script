@@ -3175,6 +3175,18 @@ Function UninstallLinuxSubsystem {
 	Disable-WindowsOptionalFeature -Online -FeatureName "Microsoft-Windows-Subsystem-Linux" -NoRestart -WarningAction SilentlyContinue | Out-Null
 }
 
+# Install Ubuntu 1804 on Windows - Install WSL first before installing this
+Function InstallUbuntu {
+	Write-Output "Installing Ubuntu 1804 on Windows..."
+	Invoke-WebRequest -Uri https://aka.ms/wsl-ubuntu-1804 -OutFile ~/Ubuntu.appx -UseBasicParsing
+
+	Add-AppxPackage -Path ~/Ubuntu.appx
+
+	Write-Output "A separate Powershell Window will pop up. Please make sure you set-up your admin acct w/ password ..."
+	Start-Process Ubuntu.exe
+}
+
+
 # Install Hyper-V - Not applicable to Home
 Function InstallHyperV {
 	Write-Output "Installing Hyper-V..."
