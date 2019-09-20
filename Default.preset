@@ -190,6 +190,7 @@ DisableMediaSharing             # EnableMediaSharing
 # UninstallInternetExplorer     # InstallInternetExplorer
 UninstallWorkFolders          # InstallWorkFolders
 # UninstallPowerShellV2         # InstallPowerShellV2
+InstallVirtualMachinePlatform
 InstallLinuxSubsystem         # UninstallLinuxSubsystem
 InstallUbuntu
 # InstallHyperV                 # UninstallHyperV
