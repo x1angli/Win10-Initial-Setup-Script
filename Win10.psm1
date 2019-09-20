@@ -3153,6 +3153,13 @@ Function InstallPowerShellV2 {
 	}
 }
 
+
+Function InstallVirtualMachinePlatform {
+	Write-Output "InstallingVirtualMachinePlatform..."
+	Enable-WindowsOptionalFeature -Online -FeatureName "VirtualMachinePlatform" -NoRestart -WarningAction SilentlyContinue | Out-Null
+}
+
+
 # Install Linux Subsystem - Applicable since Win10 1607 and Server 1709
 # For automated Linux distribution installation, see https://docs.microsoft.com/en-us/windows/wsl/install-on-server
 Function InstallLinuxSubsystem {
