@@ -48,8 +48,8 @@ SetCurrentNetworkPrivate        # SetCurrentNetworkPublic
 # DisableNetDevicesAutoInst     # EnableNetDevicesAutoInst
 DisableFirewall               # EnableFirewall
 # HideDefenderTrayIcon          # ShowDefenderTrayIcon
-# DisableDefender               # EnableDefender
-# DisableDefenderCloud          # EnableDefenderCloud
+DisableDefender               # EnableDefender
+DisableDefenderCloud          # EnableDefenderCloud
 # EnableCtrldFolderAccess       # DisableCtrldFolderAccess
 # EnableCIMemoryIntegrity       # DisableCIMemoryIntegrity
 # EnableDefenderAppGuard        # DisableDefenderAppGuard
@@ -85,10 +85,10 @@ DisableRestorePoints          # EnableRestorePoints
 EnableNTFSLongPaths             # DisableNTFSLongPaths
 # DisableNTFSLastAccess         # EnableNTFSLastAccess
 # SetBIOSTimeUTC                # SetBIOSTimeLocal
-# EnableHibernation             # DisableHibernation
+DisableHibernation              # EnableHibernation
 # DisableSleepButton            # EnableSleepButton
 # DisableSleepTimeout           # EnableSleepTimeout
-# DisableFastStartup            # EnableFastStartup
+DisableFastStartup              # EnableFastStartup
 # DisableAutoRebootOnCrash      # EnableAutoRebootOnCrash
 
 ### UI Tweaks ###
@@ -144,11 +144,11 @@ DisableSharingWizard          # EnableSharingWizard
 # HideSelectCheckboxes          # ShowSelectCheckboxes
 HideSyncNotifications           # ShowSyncNotifications
 # HideRecentShortcuts           # ShowRecentShortcuts
-# SetExplorerThisPC             # SetExplorerQuickAccess
-# HideQuickAccess               # ShowQuickAccess
-HideRecycleBinFromDesktop     # ShowRecycleBinOnDesktop
+ShowQuickAccess                 # HideQuickAccess
+SetExplorerQuickAccess          # SetExplorerThisPC             
+HideRecycleBinFromDesktop       # ShowRecycleBinOnDesktop
 ShowThisPCOnDesktop             # HideThisPCFromDesktop
-ShowUserFolderOnDesktop       # HideUserFolderFromDesktop
+ShowUserFolderOnDesktop         # HideUserFolderFromDesktop
 # ShowControlPanelOnDesktop     # HideControlPanelFromDesktop
 # ShowNetworkOnDesktop          # HideNetworkFromDesktop
 HideDesktopFromThisPC           # ShowDesktopInThisPC
@@ -169,7 +169,7 @@ HideIncludeInLibraryMenu      # ShowIncludeInLibraryMenu
 HideGiveAccessToMenu          # ShowGiveAccessToMenu
 HideShareMenu                 # ShowShareMenu
 # DisableThumbnails             # EnableThumbnails
-DisableThumbnailCache           # EnableThumbnailCache
+EnableThumbnailCache            # DisableThumbnailCache
 DisableThumbsDBOnNetwork        # EnableThumbsDBOnNetwork
 
 ### Application Tweaks ###
